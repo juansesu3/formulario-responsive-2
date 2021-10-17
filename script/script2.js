@@ -5,8 +5,6 @@ allData.push(localStorage.getItem("frm"));
 function saveData() {
   validar();
   data = [];
-
-  data.push($("#name").val());
   data.push($("#email").val());
   data.push($("#password").val());
 
@@ -20,14 +18,10 @@ function saveData() {
 }
 
 function validar() {
-  names = $("#name").val();
+  
   emails = $("#email").val();
   passwords = $("#password").val();
 
-  if (names.length < 3 ) {
-    alert("missing enter name");
-    return false;
-  }
   if (emails.length < 2) {
     alert("missing enter email");
     return false;
@@ -38,7 +32,6 @@ function validar() {
   }
 }
 function deletedInput() {
-  $("#name").val("");
   $("#email").val("");
   $("#password").val("");
 }

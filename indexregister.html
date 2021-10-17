@@ -9,25 +9,28 @@
     <title>Document</title>
 </head>
 <body>
+
     <form class="formulario">
         <h1>Log In</h1>
        
         <div class="contenedor">
             <div class="input-contenedor">
                 <i class="fas fa-envelope icon"></i>
-                <input type="email" name="" id="" placeholder="Email" required>
+                <input type="email" name="" id="email" placeholder="Email" required>
             </div>
         </div>
         <div class="contenedor">
             <div class="input-contenedor">
                 <i class="fas fa-key icon"></i>
-                <input type="password" name="" id="" placeholder="Password" required>
+                <input type="password" name="" id="password" placeholder="Password" required>
             </div>
-            <input type="submit" value="Log In" class="button">
+            <input type="submit" value="Log In" class="button" onclick="saveData()">
             <p>By registering, you accept our terms of use and privacy policies.</p>
                 <p>You don't have an account?<a class="link" href="./indexsigin.html"> Sig Up</a> </p>
         </div>
     </form>
+    <script src="./script/script2.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
     
 </body>
 </html>

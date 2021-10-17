@@ -3,6 +3,9 @@ body{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     background-image: url(../image/fondo3.jpg);
     background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
     background-attachment: fixed;
     color: #fff;
 
